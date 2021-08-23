@@ -1,0 +1,41 @@
+a {
+    text-decoration: none;
+    color: red;
+}
+.container{
+    max-width: 1220px;
+    padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content{
+    text-align: center;
+}
+.title{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.info{
+    font-weight: 700;
+    font-size: 24px;
+    font-style: italic;
+}
+.images{
+    max-width: 340px;
+}
+.social__inst{
+    height: 40px;
+}
+.social__inst + .social__img{
+    padding-left: 15px;
+}
+
+.social__inner{
+    display: inline-block;
+    transition: all .2s;  
+}
+
+.social__inner:hover{
+    border-bottom: 2px solid rgb(248, 12, 12);
+ 
+}
